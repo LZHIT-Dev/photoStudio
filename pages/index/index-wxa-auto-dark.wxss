@@ -1,0 +1,38 @@
+/* 
+此文件为开发者工具生成，生成时间: 2022/4/6 下午9:51:39
+使用方法：
+在 index.wxss 文件末尾引入样式
+```
+@import "./index-wxa-auto-dark.wxss";
+```
+ */
+
+@media (prefers-color-scheme: dark) {
+    page {
+        background-color: rgb(35, 35, 35);
+    }
+
+    .imgBody{
+        border: 5px solid rgb(255, 255, 255);
+        box-shadow: 0px 2px 5px rgba(180, 180, 180, 0.5);
+     }
+
+    .mainBtn {
+        background: rgb(255, 255, 255);
+        color: rgb(17, 17, 17);
+    }
+
+    .mainBtn-hover {
+        background-color: rgb(224, 224, 224);
+        border: 5px solid rgba(224, 224, 224);
+    }
+
+    .viewAllBtn {
+        background: rgb(17, 17, 17);
+        color: #FFFFFF;
+    }
+
+    .viewAllBtn-hover {
+        background-color: rgb(24, 24, 24);
+    }
+}

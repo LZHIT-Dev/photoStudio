@@ -1,0 +1,31 @@
+/* 
+此文件为开发者工具生成，生成时间: 2022/4/8 下午8:59:30
+使用方法：
+在 gallery.wxss 文件末尾引入样式
+```
+@import "./gallery-wxa-auto-dark.wxss";
+```
+ */
+
+@media (prefers-color-scheme: dark) {
+    .photoCard {
+        background-color: rgb(17, 17, 17);
+    }
+
+    .photoCard-right {
+        background-color: rgb(17, 17, 17);
+    }
+
+    .photoDescripGroup {
+        color: rgb(126, 126, 126);
+    }
+
+    .countinue {
+        background-color: rgb(17, 17, 17);
+        color: rgb(113, 113, 113);
+    }
+
+    .copyright {
+        color: rgb(122, 122, 122);
+    }
+}

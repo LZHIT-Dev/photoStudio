@@ -1,0 +1,79 @@
+/* pages/gallery/gallery.wxss */
+.viewBody{
+    margin-top: 10px;
+}
+
+.imgCard{
+    width: 130%;
+}
+
+.photoGroup{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    flex-direction: row;
+    display: flex;
+}
+
+.photoCard{
+    overflow: hidden;
+    width: 47%;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.photoCard-right{
+    overflow: hidden;
+    width: 47%;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    position: absolute;
+    right: 10px;
+}
+
+.photoDescripGroup{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 1px;
+    flex-direction: row;
+    display: flex;
+    color: #7c7c7c;
+    text-align: center;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.photoDescripCard{
+    overflow: hidden;
+    width: 47%;
+}
+
+.photoDescripCard-right{
+    overflow: hidden;
+    width: 47%;
+    position: absolute;
+    right: 10px;
+}
+
+.countinue{
+    width: 100%;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-weight: 800;
+    color: #8a8a8a;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.copyright{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 10px;
+    color: grey;
+    margin-bottom: 30px;
+}
+
+@import 'gallery-wxa-auto-dark.wxss'

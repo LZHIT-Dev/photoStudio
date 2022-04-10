@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="imgBody">
+    <swiper class="swiper" autoplay="true" interval="5000" duration="1000" circular="true" easing-function="easeInOutCubic">  
+   <block wx:for="{{movies}}" wx:for-index="index">  
+    <swiper-item>  
+     <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+    </swiper-item>  
+   </block>  
+  </swiper>
+  </view>
+  <!--<button class="mainBtn" hover-class="mainBtn-hover" open-type="contact">立刻联系报名</button>-->
+  <view class="summaryText">
+    <text>模特招募中，限时体验</text>
+  </view>
+  <button class="mainBtn" hover-class="mainBtn-hover" bindtap='contactNow'>立刻联系报名</button>
+  <button class="viewAllBtn" hover-class="viewAllBtn-hover" bindtap="aboutUs">了解我们</button>
+</view>
+

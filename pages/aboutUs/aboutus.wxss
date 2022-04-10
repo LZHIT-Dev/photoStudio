@@ -1,0 +1,51 @@
+/* pages/aboutUs/aboutus.wxss */
+.titleText{
+  margin-top: 30px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.mainText{
+  margin-top: 5px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.btnArea{
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 50px;
+  text-align: center;
+  line-height:62px;
+}
+
+.findUs{
+  margin-top: 10px;
+  width: 100%;
+  height: 62px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.viewAll{
+  width: 100%;
+  height: 62px;
+  background-color: #000000;
+  color: #FFFFFF;
+  border-radius: 10px;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.viewAll-hover{
+  background-color: #3b3b3b;
+}
+
+.findUs-hover{
+  background-color: #F5F5F5;
+}
+
+@import 'aboutus-wxa-auto-dark.wxss'

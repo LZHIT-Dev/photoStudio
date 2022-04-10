@@ -1,0 +1,15 @@
+<!--pages/ChatCheck/chatcheck.wxml-->
+<view>
+  <view class="svg_icon">
+    <image class="svg_image" src="contact.png"/>
+  </view>
+  <view class="titleText">
+    <text>立刻与摄影师取得联系</text>
+  </view>
+  <view class="mainText">
+    <text>受微信小程序政策限制，您需要在打开联系窗口后主动发送一次消息才能与我们取得联系。为此带来的不便还请您谅解。</text>
+  </view>
+  <button class="contactBtn" hover-class="contactBtn_hover" open-type="contact">
+  立即联系
+  </button>
+</view>

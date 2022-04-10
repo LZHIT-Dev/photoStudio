@@ -1,0 +1,36 @@
+/* 
+此文件为开发者工具生成，生成时间: 2022/4/9 下午5:25:56
+使用方法：
+在 aboutus.wxss 文件末尾引入样式
+```
+@import "./aboutus-wxa-auto-dark.wxss";
+```
+ */
+
+@media (prefers-color-scheme: dark) {
+    .titleText{
+        color: #FFFFFF;
+    }
+
+    .mainText{
+        color: #FFFFFF;
+    }
+
+    .findUs {
+        background-color: rgb(17, 17, 17);
+        color: #FFFFFF;
+    }
+
+    .viewAll {
+        background-color: rgb(255, 255, 255);
+        color: rgb(17, 17, 17);
+    }
+
+    .viewAll-hover {
+        background-color: rgb(199, 199, 199);
+    }
+
+    .findUs-hover {
+        background-color: rgb(24, 24, 24);
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "light":{
+    "navBarBgColor": "#E6E6E6",
+    "navBarTextColor": "black",
+    "contanctNavBarBgColor": "#FFFFFF"
+  },
+  "dark":{
+    "navBarBgColor": "#232323",
+    "navBarTextColor": "white",
+    "contanctNavBarBgColor": "#232323"
+  }
+}

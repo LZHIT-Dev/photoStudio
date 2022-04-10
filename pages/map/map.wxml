@@ -1,0 +1,29 @@
+<!--pages/aboutUs/map/map.wxml-->
+<view class="mainText">
+  <text>我们的位置</text>
+</view>
+<view class="locationCard">
+  <view style="display:flex; border-radius: 10px;overflow: hidden;" >
+  <map id="myMap" style="width: 100%; height: 800rpx;"
+  longitude="{{longitude}}"
+  latitude="{{latitude}}"
+  scale="15.7"
+  markers="{{markers}}" ></map>
+</view>
+<view class="addressCard">
+  <view class="addressCardText">
+    <text>柳州市 · 鱼峰区</text>
+  </view>
+  <view class="addressCardText">
+    <text>新柳大道99号</text>
+  </view>
+  <view class="addressCardText">
+    <text>柳州工学院内 大学生活动中心</text>
+  </view>
+</view>
+</view>
+<view class="navTo" hover-class="navTo-hover">
+  <view class="navToBtn" bindtap="navTo">
+    <text>打开导航</text>
+  </view>
+</view>

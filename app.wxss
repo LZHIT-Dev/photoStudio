@@ -1,0 +1,15 @@
+/**app.wxss**/
+.container {
+  flex-direction: column;
+
+  box-sizing: border-box;
+} 
+
+page {
+  background: #E6E6E6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+} 
+
+@import 'app-wxa-auto-dark.wxss'

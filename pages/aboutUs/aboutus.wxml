@@ -1,0 +1,40 @@
+<!--pages/aboutUs/aboutus.wxml-->
+<view class="pageBody">
+  <view class="titleText">
+    <text>了解我们更多一点...</text>
+  </view>
+  <view class="mainText">
+    <view class="paragraph">
+      <text>
+        十年之后，再好的技术也拍不出这个年纪的美好!
+      </text>
+    </view>
+    <view class="paragraph">
+      <text>
+        这里是鸣先生的摄影工坊，我们是一个充满热情与友好的年轻群体。
+      </text>
+    </view>
+    <view class="paragraph">
+      <text>
+        主要承接写真拍摄，证件照拍摄，毕业照团体照，cos后期合成等业务。
+      </text>
+    </view>
+    <view class="paragraph">
+      <text>
+        我们的摄影师经验丰富，熟练掌握各种拍摄和精修手法。
+      </text>
+    </view>
+  </view>
+  <view class="btnArea">
+    <view class="viewAll" hover-class="viewAll-hover" bindtap="viewAllBtn">
+      <view class="btnText">
+        欣赏我们的作品
+      </view>
+    </view>
+    <view class="findUs" hover-class="findUs-hover" bindtap="findUsBtn">
+      <view class="btnText">
+        在地图上找到我们
+      </view>
+    </view>
+  </view>
+</view>

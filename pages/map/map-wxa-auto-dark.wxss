@@ -1,0 +1,30 @@
+/* 
+此文件为开发者工具生成，生成时间: 2022/4/9 下午5:28:43
+使用方法：
+在 map.wxss 文件末尾引入样式
+```
+@import "./map-wxa-auto-dark.wxss";
+```
+ */
+
+@media (prefers-color-scheme: dark) {
+    .addressCard {
+        color: #000000;
+    }
+
+    .locationCard {
+        background-color: #FFFFFF;
+    }
+
+    .navTo {
+        background-color: rgb(56, 118, 247);
+    }
+
+    .navTo-hover {
+        background-color: rgb(111, 145, 255);
+    }
+
+    .mainText{
+        color: #FFFFFF;
+    }
+}

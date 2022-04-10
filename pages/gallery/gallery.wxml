@@ -1,0 +1,206 @@
+<!--pages/gallery/gallery.wxml-->
+<view class="viewBody" bindtap='buttonTap'>
+    <view class="photoGroup">
+        <view class="photoCard">
+            <image src="..." mode="widthFix" lazy-load="true" class="imgCard" />
+        </view>
+        <view class="photoCard-right">
+            <image src="..." mode="widthFix" lazy-load="true" class="imgCard" />
+        </view>
+    </view>
+    <view class="photoDescripGroup">
+        <view class="photoDescripCard">
+            <text>婚纱摄影</text>
+        </view>
+        <view class="photoDescripCard-right">
+            <text>人像特写</text>
+        </view>
+    </view>
+    <view class="photoGroup">
+        <view class="photoCard">
+            <image src="..." mode="widthFix" lazy-load="true" class="imgCard" />
+        </view>
+        <view class="photoCard-right">
+            <image src="..." mode="widthFix" lazy-load="true" class="imgCard" />
+        </view>
+    </view>
+    <view class="photoDescripGroup">
+        <view class="photoDescripCard">
+            <text>人像特写</text>
+        </view>
+        <view class="photoDescripCard-right">
+            <text>时尚、人像海报风格</text>
+        </view>
+    </view>
+    <view class="photoGroup">
+        <view class="photoCard">
+            <image src="..." mode="widthFix" lazy-load="true" class="imgCard" />
+        </view>
+        <view class="photoCard-right">
+            <image src="..." mode="widthFix" lazy-load="true" class="imgCard" />
+        </view>
+    </view>
+    <view class="photoDescripGroup">
+        <view class="photoDescripCard">
+            <text>时尚、人像</text>
+        </view>
+        <view class="photoDescripCard-right">
+            <text>人像特写</text>
+        </view>
+    </view>
+    <view class="photoGroup">
+        <view class="photoCard">
+            <image src="..." mode="widthFix" lazy-load="true" class="imgCard" />
+        </view>
+        <view class="photoCard-right">
+            <image src="..." mode="widthFix" lazy-load="true" class="imgCard" />
+        </view>
+    </view>
+    <view class="photoDescripGroup">
+        <view class="photoDescripCard">
+            <text>人物古风</text>
+        </view>
+        <view class="photoDescripCard-right">
+            <text>人像特写</text>
+        </view>
+    </view>
+    <view class="photoGroup">
+        <view class="photoCard">
+            <image src="..." mode="widthFix" lazy-load="true" class="imgCard" />
+        </view>
+        <view class="photoCard-right">
+            <image src="..." mode="widthFix" lazy-load="true" class="imgCard" />
+        </view>
+    </view>
+    <view class="photoDescripGroup">
+        <view class="photoDescripCard">
+            <text>时尚、人物</text>
+        </view>
+        <view class="photoDescripCard-right">
+            <text>人物古风</text>
+        </view>
+    </view>
+    <view class="photoGroup">
+        <view class="photoCard">
+            <image src="..." mode="widthFix" lazy-load="true" class="imgCard" />
+        </view>
+        <view class="photoCard-right">
+            <image src="..." mode="widthFix" lazy-load="true" class="imgCard" />
+        </view>
+    </view>
+    <view class="photoDescripGroup">
+        <view class="photoDescripCard">
+            <text>人物、夜间</text>
+        </view>
+        <view class="photoDescripCard-right">
+            <text>摄像、光影</text>
+        </view>
+    </view>
+    <view class="photoGroup">
+        <view class="photoCard">
+            <image src="..." mode="widthFix" lazy-load="true" class="imgCard" />
+        </view>
+        <view class="photoCard-right">
+            <image src="..." mode="widthFix" lazy-load="true" class="imgCard" />
+        </view>
+    </view>
+    <view class="photoDescripGroup">
+        <view class="photoDescripCard">
+            <text>人物、环境</text>
+        </view>
+        <view class="photoDescripCard-right">
+            <text>人像、情绪</text>
+        </view>
+    </view>
+    <view class="photoGroup">
+        <view class="photoCard">
+            <image src="..." mode="widthFix" lazy-load="true" class="imgCard" />
+        </view>
+        <view class="photoCard-right">
+            <image src="..." mode="widthFix" lazy-load="true" class="imgCard" />
+        </view>
+    </view>
+    <view class="photoDescripGroup">
+        <view class="photoDescripCard">
+            <text>情侣人像逆光特写</text>
+        </view>
+        <view class="photoDescripCard-right">
+            <text>人物古风</text>
+        </view>
+    </view>
+    <view class="photoGroup">
+        <view class="photoCard">
+            <image src="..." mode="widthFix" lazy-load="true" class="imgCard" />
+        </view>
+        <view class="photoCard-right">
+            <image src="..." mode="widthFix" lazy-load="true" class="imgCard" />
+        </view>
+    </view>
+    <view class="photoDescripGroup">
+        <view class="photoDescripCard">
+            <text>人像特写</text>
+        </view>
+        <view class="photoDescripCard-right">
+            <text>人像情绪摄影</text>
+        </view>
+    </view>
+    <view class="photoGroup">
+        <view class="photoCard">
+            <image src="..." mode="widthFix" lazy-load="true" class="imgCard" />
+        </view>
+        <view class="photoCard-right">
+            <image src="..." mode="widthFix" lazy-load="true" class="imgCard" />
+        </view>
+    </view>
+    <view class="photoDescripGroup">
+        <view class="photoDescripCard">
+            <text>人像暗光摄影</text>
+        </view>
+        <view class="photoDescripCard-right">
+            <text>人像暗光摄影</text>
+        </view>
+    </view>
+    <view class="photoGroup">
+        <view class="photoCard">
+            <image src="..." mode="widthFix" lazy-load="true" class="imgCard" />
+        </view>
+        <view class="photoCard-right">
+            <image src="..." mode="widthFix" lazy-load="true" class="imgCard" />
+        </view>
+    </view>
+    <view class="photoDescripGroup">
+        <view class="photoDescripCard">
+            <text>人物写真</text>
+        </view>
+        <view class="photoDescripCard-right">
+            <text>闺蜜人像摄影</text>
+        </view>
+    </view>
+    <view class="photoGroup">
+        <view class="photoCard">
+            <image src="..." mode="widthFix" lazy-load="true" class="imgCard" />
+        </view>
+        <view class="photoCard-right">
+            <image src="..." mode="widthFix" lazy-load="true" class="imgCard" />
+        </view>
+    </view>
+    <view class="photoDescripGroup">
+        <view class="photoDescripCard">
+            <text>暗光人物摄影</text>
+        </view>
+        <view class="photoDescripCard-right">
+            <text>人像侧脸摄影</text>
+        </view>
+    </view>
+</view>
+<view class="photoGroup">
+    <view class="countinue">
+    <text class="countinueText">—— 未完待续 ——</text>
+    </view>
+    </view>
+<view class="copyright">
+        <text>受小程序技术限制，在此展示的照片及其比例并非与原片1:1还原。</text>
+        <text>
+            © 鸣先生的摄影工坊 版权所有
+        </text>
+    </view>

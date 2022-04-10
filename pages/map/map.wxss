@@ -1,0 +1,59 @@
+/* pages/aboutUs/map/map.wxss */
+.mainText{
+  margin-left: 20px;
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.locationCard{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: #000000;
+  border-radius: 20px;
+  height: auto;
+  width: 90%;
+}
+
+.addressCard{
+  overflow: hidden;
+  margin-top: 10px;
+  width: auto;
+  height: auto;
+  font-size: 17px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.addressCardText{
+  margin-top: 5px;
+}
+
+.navTo{
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+  border-radius: 10px;
+  text-align: center;
+  line-height:62px;
+  background-color: #427cfe;
+  color: #FFFFFF;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.navTo-hover{
+  background-color: #3463cb;
+}
+
+.navToBtn{
+  width: 100%;
+  height: 62px;
+}
+
+@import 'map-wxa-auto-dark.wxss'
